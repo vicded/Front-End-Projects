@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- prefetch -->
+    <link rel="prefetch" href="about.html" as="document">    
+
+
+    <!-- preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preload" href="img/blog1.jpg" as="image">
+    <title>Coffee Blog</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container"> 
+            <div class="barra"> 
+                <a class="logo" href="index.html"> 
+                    <h1 class="logo__name no-margin center-text">Coffee<span class="logo__bold">blog</span></h1>
+                </a>
+                <nav class="navegation">
+                    <a href="about.html" class="navegation__link">About Us</a>
+                    <a href="courses.html" class="navegation__link">Our Courses</a>
+                    <a href="contact.html" class="navegation__link">Contact Us</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__text">
+            <h2 class="no-margin"> Coffee Blog Course Works and Tips</h2>
+            <p class="no-margin"> Become the best learning from the best</p>
+        </div>
+    </header>
+    <div class="container main-content">
+        <main class="blog"> 
+            <h3>Our Blog</h3>
+            <article class="entry">
+                <div class="entry__img">
+                    <picture>
+                        <source srcset="img/blog1.webp" type="img/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="a cup of coffee grains">
+                    </picture>                    
+                </div>
+                <div class="entry__content">
+                    <h4 class="no-margin">Types of grains</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, quia esse. Maxime sed corporis asperiores fugiat, quos maiores saepe nesciunt cupiditate ipsum voluptatem fuga qui excepturi expedita aliquam itaque ea.</p>
+                    <a href="entry.html" class="button button__primary">Read more</a>
+                </div>
+            </article>
+            <article class="entry">
+                <div class="entry__img">
+                    <picture>
+                        <source srcset="img/blog2.webp" type="img/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="cupcakes and a cup of coffe laying on a table">
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin">Delightful Recipes</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, quia esse. Maxime sed corporis asperiores fugiat, quos maiores saepe nesciunt cupiditate ipsum voluptatem fuga qui excepturi expedita aliquam itaque ea.</p>
+                    <a href="entry.html" class="button button__primary">Read more</a>
+                </div>
+            </article>
+            <article class="entry">
+                <div class="entry__img">
+                    <picture>
+                        <source srcset="img/blog3.webp" type="img/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="a cup of coffe with coffee grains laying around">
+                    </picture>    
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin">Coffe Benefits</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, quia esse. Maxime sed corporis asperiores fugiat, quos maiores saepe nesciunt cupiditate ipsum voluptatem fuga qui excepturi expedita aliquam itaque ea.</p>
+                    <a href="entry.html" class="button button__primary">Read more</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Our Courses</h3>
+
+            <ul class="course no-padding">
+                <li class="course-widget"> 
+                    <h4 class="no-margin">Coffe Extraction Techniques</h4>
+                    <p class="course-widget__label"> Cost:  
+                        <span class="course-widget__info"> Free </span>
+                    </p> 
+                    <p class="course-widget__label"> Availability:  
+                        <span class="course-widget__info"> 70 </span>
+                    </p> 
+                    <a href="entry.html" class="button button__secundary">Read more</a>
+                </li>
+
+                <li class="course-widget"> 
+                    <h4 class="no-margin"> Blend And Brew Like An Expert  </h4>
+                    <p class="course-widget__label"> Cost:  
+                        <span class="course-widget__info"> Free </span>
+                    </p> 
+                    <p class="course-widget__label"> Availability:  
+                        <span class="course-widget__info"> 35 </span>
+                    </p> 
+                    <a href="entry.html" class="button button__secundary">Read more</a>
+                </li>
+
+                <li class="course-widget">                    
+                    <h4 class="no-margin">4 easy recipes</h4>
+                    <p class="course-widget__label"> Cost:  
+                        <span class="course-widget__info"> Free </span>
+                    </p> 
+                    <p class="course-widget__label"> Availability:  
+                        <span class="course-widget__info"> 120 </span>
+                    </p> 
+                    <a href="entry.html" class="button button__secundary">Read more</a>
+                </li>
+            </ul>
+        </aside>    
+    </div>
+
+    <footer class="footer">
+        <div class="container"> 
+           
+            <div class="barra"> 
+                <a class="logo" href="index.html"> 
+                    <h1 class="logo__name no-margin center-text">Coffee<span class="logo__bold">blog</span></h1>
+                </a>
+
+                <nav class="navegation">
+                    <a href="about.html" class="navegation__link">About Us</a>
+                    <a href="courses.html" class="navegation__link">Our Courses</a>
+                    <a href="contact.html" class="navegation__link">Contact Us</a>
+                </nav>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
