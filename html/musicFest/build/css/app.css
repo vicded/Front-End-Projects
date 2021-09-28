@@ -1,0 +1,15 @@
+body {
+  font-family: "monospace";
+  background-color: 0;
+}
+
+h1 {
+  font-family: "monospace";
+  padding-left: 10px;
+  font-size: large;
+  background-color: blue;
+}
+
+h2 {
+  font-family: "monospace";
+}
