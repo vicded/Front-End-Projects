@@ -1,0 +1,81 @@
+.lineup {
+    padding: 1rem 0;
+   
+   
+    .day {
+        color: $secondColor1;
+        text-transform: uppercase;
+        margin: 5rem 0;
+    }
+
+    h3 {
+        margin: 5rem 0;
+    }
+
+    h3,p {
+        text-align: center;
+    }
+}
+
+.show-container {
+    @include tablet{
+        @include grid(2,5rem);
+    }
+
+}
+
+.show {
+    padding-top: 3rem;
+
+    .show-name {
+        padding-top: 2rem;
+    
+            &::after {
+                content: "";
+                display: block;
+                width: 20rem;
+                height: 10rem;
+                background-size: 15rem;
+                background-repeat: no-repeat;
+                background-position: center center;
+                margin: 2rem auto 0 auto;
+            }
+        
+    }
+}
+
+.schedule {
+    @include reset-list;
+    li{
+        padding: 1.5rem;
+        font-weight: $bold;
+        span{
+            font-weight: $regular;
+        }
+    }
+}
+
+.edm .show-name:after {
+    background-image: url(/src/img/icono_edm.png);
+}
+
+.rock .show-name:after {
+    background-image: url(/src/img/icono_rock.png);
+}
+
+
+.bg-main {
+    background-color: $secondColor1;
+    li:nth-child(odd){
+        background-color: darken($color: $secondColor1, $amount: 20%);
+    }
+}
+
+.bg-complementary {
+    background-color: $secondColor2;
+    li:nth-child(odd) {
+        background-color: darken($color: $secondColor2, $amount: 20%);
+    }
+}
+
+

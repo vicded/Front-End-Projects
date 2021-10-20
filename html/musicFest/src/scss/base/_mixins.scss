@@ -1,0 +1,32 @@
+@mixin mobile {
+    @media (min-width: $mobile) {
+       @content;  
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $tablet) {
+       @content;  
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+       @content;  
+    }
+}
+
+@mixin grid($columns, $gaping) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $gaping;
+}
+
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+

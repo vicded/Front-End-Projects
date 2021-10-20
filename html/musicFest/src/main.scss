@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./scss/base/normalize";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&display=swap');
+@import "./scss/base/variables";
+@import "./scss/base/mixins";
+@import "./scss/base/globals";
+
+@import "./scss/layout/header";
+@import "./scss/layout/video";
+@import "./scss/layout/preview";
+@import "./scss/layout/lineup";
+@import "./scss/layout/galery";
+@import "./scss/layout/tickets";
+@import "./scss/layout/footer";
+

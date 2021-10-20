@@ -1,0 +1,28 @@
+.preview {
+    padding: $spacing 0;
+
+    @include tablet {
+        @include grid(2, 0);
+    }
+
+    .preview-image {
+        padding: 1rem;
+    }
+}
+
+.preview-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .preview-date {
+        color: $secondColor1;
+        font-weight: $bold;
+        
+    }
+
+    .preview-text {
+        line-height: 2.5;
+    }
+
+}

@@ -1,0 +1,55 @@
+.header {
+    background-color: $primaryColor1;
+
+    @include tablet {
+        &.sticky {
+            left: 0;
+            top: 0;
+            position: fixed;
+            width: 100%;
+            z-index: 2;
+        }
+    }
+    
+
+    .header-content {
+        padding: 2rem 0;
+        
+        @include mobile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+        }   
+    }
+
+    h1 {
+        font-weight: $black;
+        margin-bottom: 1rem;
+        text-align: center;
+        @include tablet {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+.navegation-main {
+    display:flex;
+    //gap: 5rem;
+    justify-content: center;
+
+    a {
+        text-transform: uppercase;
+        color: $textColor;
+        font-size: 2rem;
+        padding-right: 3rem;
+        &:hover {
+            color: $secondColor1;
+        }
+    }
+  
+    a:last-child {
+        padding-right: 0;
+    }
+    
+}

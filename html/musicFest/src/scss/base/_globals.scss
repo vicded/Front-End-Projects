@@ -1,0 +1,65 @@
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $mainFont;
+    font-size: 1.6rem;
+    background-color: $mainColor;
+    color: white;
+
+    &.fix-body {
+        overflow: hidden;
+    }
+
+    &.body-scroll {
+        padding-top: 8.8rem;
+    }
+}
+
+p {
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 120rem; 
+    width: 95%; //If container is less than 1200px takes 95 percent
+    margin: 0 auto; //center content
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.black-letter {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
